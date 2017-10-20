@@ -1,4 +1,5 @@
 
+echo off
 set scritpToExecute=%1
 set remoteSigningVM=%2
 set remoteSignigScript=%3
@@ -11,10 +12,10 @@ REm Determine where the build outputs are
 
 set outputBinaries="'\\trovd000174\TfsDrop\tfsUIDeploy\R7 - UI Main Build\R7 - UI Main Build_2.1.07.00_20170914.1'"
 
-echo %outputBinaries%
+echo outputBinaries %outputBinaries%
 
 set outputBinaries1="%outputBinaries%"
 
-echo %outputBinaries1%
+echo outputBinaries1 %outputBinaries1%
 
 echo powershell "%scritpToExecute% %RemoteSigningVM% %remoteSignigScript%  %outputBinaries1% %user% %password%"
