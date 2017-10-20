@@ -14,7 +14,7 @@ set outputBinaries="'\\trovd000174\TfsDrop\tfsUIDeploy\R7 - UI Main Build\R7 - U
 
 echo outputBinaries %outputBinaries%
 
-set outputBinaries1="%outputBinaries%"
+set outputBinaries1='%outputBinaries%'
 
 echo outputBinaries1 %outputBinaries1%
 
