@@ -20,7 +20,9 @@ echo outputBinaries1 %outputBinaries1%
 
 echo powershell "%scritpToExecute% %RemoteSigningVM% %remoteSignigScript%  %outputBinaries1% %user% %password%"
 
+echo powershell -file %scritpToExecute%  "%RemoteSigningVM% %remoteSignigScript%  %outputBinaries1% %user% %password%"
 powershell -file %scritpToExecute%  "%RemoteSigningVM% %remoteSignigScript%  %outputBinaries1% %user% %password%"
+
 
 
 
