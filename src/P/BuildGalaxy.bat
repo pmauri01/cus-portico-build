@@ -13,4 +13,4 @@ set outputBinaries="'\\trovd000174\TfsDrop\tfsUIDeploy\R7 - UI Main Build\R7 - U
 
 echo outputBinaries
 
-powershell "%scritpToExecute% %RemoteSigningVM% %remoteSignigScript%  '%outputBinaries%' %user% %password%"
+powershell "%scritpToExecute% %RemoteSigningVM% %remoteSignigScript%  "%outputBinaries%" %user% %password%"
