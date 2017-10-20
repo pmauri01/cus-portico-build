@@ -17,4 +17,4 @@ set outputBinaries1="%outputBinaries%"
 
 echo %outputBinaries1%
 
-powershell "%scritpToExecute% %RemoteSigningVM% %remoteSignigScript%  %outputBinaries1% %user% %password%"
+echo powershell "%scritpToExecute% %RemoteSigningVM% %remoteSignigScript%  %outputBinaries1% %user% %password%"
