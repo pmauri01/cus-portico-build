@@ -11,10 +11,10 @@ REm Determine where the build outputs are
 
 set outputBinaries="'\\trovd000174\TfsDrop\tfsUIDeploy\R7 - UI Main Build\R7 - UI Main Build_2.1.07.00_20170914.1'"
 
-echo outputBinaries
+echo %outputBinaries%
 
 set outputBinaries1="%outputBinaries%"
 
-echo outputBinarie1
+echo %outputBinaries1%
 
 powershell "%scritpToExecute% %RemoteSigningVM% %remoteSignigScript%  %outputBinaries1% %user% %password%"
