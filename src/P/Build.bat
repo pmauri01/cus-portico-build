@@ -2,8 +2,8 @@
 set scritpToExecute=%1
 Rem set remoteSigningVM=%2
 rem set remoteSignigScript=%3
-rem set user=%4
-set password=%2
+set user=%2
+set password=%3
 
 ECHO user: %user%
 
