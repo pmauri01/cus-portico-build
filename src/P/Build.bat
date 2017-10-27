@@ -6,7 +6,6 @@ rem set user=%4
 set password=%2
 
 ECHO user: %user%
-set user='%user%'
 
 REM Compile Solutions
 REm Determine where the build outputs are
