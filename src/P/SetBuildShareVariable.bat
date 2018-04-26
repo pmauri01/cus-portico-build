@@ -6,5 +6,5 @@ rem set AGENT_BUILDDIRECTORY=c:\Agents\agent1\12
 echo BuildShare=%BuildShare%
 set root=%AGENT_BUILDDIRECTORY:~0,3%
 set drive=%AGENT_BUILDDIRECTORY:~0,1%
-call set BuildShare==%%AGENT_BUILDDIRECTORY:%root%=\\%AGENT_MACHINENAME%\%drive%$\%%
+call set BuildShare=%%AGENT_BUILDDIRECTORY:%root%=\\%AGENT_MACHINENAME%\%drive%$\%%
 echo BuildShare=%BuildShare%
